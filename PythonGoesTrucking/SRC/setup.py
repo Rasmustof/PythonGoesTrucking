@@ -66,5 +66,5 @@ setup(
     license='',
     author='Rasmustof',
     author_email='rasmustof@me.com',
-    description=''
+    description='', install_requires=['cv2', 'numpy', 'Pillow']
 )
