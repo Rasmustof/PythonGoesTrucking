@@ -1,5 +1,6 @@
 import numpy as np
 import pyscreenshot as ImageGrab
+import PIL
 import cv2
 
 while True:
