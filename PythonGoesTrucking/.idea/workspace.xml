@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c4bacaf-f293-4d8f-9330-c16d48ab163a" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/SRC/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/SRC/Main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SRC/Testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/SRC/Testing.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,7 +15,7 @@
     <session id="1546851926">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.4" value="3" />
@@ -23,7 +24,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="163" />
+          <entry key="py" value="316" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -33,7 +34,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="163" />
+          <entry key="Python" value="316" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -45,23 +46,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SRC/Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SRC/Testing.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="75">
+              <caret line="5" column="57" lean-forward="true" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -98,8 +87,8 @@
         <option value="$PROJECT_DIR$/Main.py" />
         <option value="$PROJECT_DIR$/SRC/setup.py" />
         <option value="$PROJECT_DIR$/SRC/CVVtest.py" />
-        <option value="$PROJECT_DIR$/SRC/Main.py" />
         <option value="$PROJECT_DIR$/SRC/Testing.py" />
+        <option value="$PROJECT_DIR$/SRC/Main.py" />
       </list>
     </option>
   </component>
@@ -155,7 +144,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Testing">
+  <component name="RunManager" selected="Python.Main">
     <configuration name="Main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonGoesTrucking" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -223,8 +212,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Testing" />
         <item itemvalue="Python.Main" />
+        <item itemvalue="Python.Testing" />
         <item itemvalue="Python.Main (1)" />
       </list>
     </recent_temporary>
@@ -244,14 +233,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1680" y="227" width="1920" height="1010" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.156563" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3284091" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3284091" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3995749" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -259,7 +247,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32943678" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.329718" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3284091" />
+      <window_info anchor="bottom" id="Python Console" order="10" visible="true" weight="0.3284091" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -283,20 +271,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SRC/Main.py">
+    <entry file="file://$PROJECT_DIR$/SRC/Testing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        <state>
+          <caret selection-end-line="27" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
+            <marker date="1534102188143" expanded="true" signature="157:350" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SRC/Testing.py">
+    <entry file="file://$PROJECT_DIR$/SRC/Main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="75">
+          <caret line="5" column="57" lean-forward="true" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>

@@ -1,14 +1,31 @@
 import numpy as np
-import pyscreenshot as ImageGrab
 import cv2
+import time
+from mss import mss
 
-while True:
-        printscreen_pil =  ImageGrab.grab(bbox=(0,40,1280,720))
-        printscreen_numpy =   np.array(printscreen_pil.getdata(),dtype='uint8')\
-        .reshape((printscreen_pil.size[1],printscreen_pil.size[0],3))
-        cv2.imshow('window',printscreen_numpy)
+mon = {'top': 0, 'left': 0, 'width': 1280, 'height': 720}
+sct = mss()
+
+
+def process_img(image):
+    original_image = image
+    processed_img = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+
+    processed_img = cv2.Canny(processed_img, threshold1=200, threshold2=300)
+    return processed_img
+
+
+def main():
+    last_time = time.time()
+    while (True):
+        screen = np.array(sct.grab(mon))
+        #print('loop took {} seconds'.format(time.time() - last_time))
+        last_time = time.time()
+        new_screen = process_img(screen)
+        cv2.imshow('window', new_screen)
         if cv2.waitKey(25) & 0xFF == ord('q'):
             cv2.destroyAllWindows()
             break
 
-print(cv2.__version__)
+
+main()

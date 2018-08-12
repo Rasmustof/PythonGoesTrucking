@@ -6,6 +6,13 @@ from mss import mss
 mon = {'top': 0, 'left': 0, 'width': 1280, 'height': 720}
 sct = mss()
 
+def process_img(image):
+    original_image = image
+    processed_img = cv2.cvtColor(image,cv2.COLOR_BGR2GRAY)
+
+    processed_img = cv2.Canny(processed_img, threshold1= 200, threshold2= 300)
+    return processed_img
+
 def screen_record():
     last_time = time.time()
     while(True):
