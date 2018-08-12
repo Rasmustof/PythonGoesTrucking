@@ -2,7 +2,6 @@ import numpy as np
 import cv2
 import time
 from mss import mss
-from PIL import Image
 
 mon = {'top': 0, 'left': 0, 'width': 640, 'height': 480}
 sct = mss()
