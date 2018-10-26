@@ -6,4 +6,4 @@ Current Version: 0.0.1 PRE_RELEASE
 Python Version: 3.7
 OpenCV Version: 3.4.1
 PyCharm Version: Community Edition 2018.1.1
-OS: Linux Mint - MATE version 18.3
+OS: Ubuntu Linux 18.04 LTS
