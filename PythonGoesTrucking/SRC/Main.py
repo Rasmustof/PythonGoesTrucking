@@ -9,7 +9,7 @@ sct = mss()
 
 def process_img(image):
     original_image = image
-    processed_img = cv2.Canny(original_img, threshold1=200, threshold2=300)
+    processed_img = cv2.Canny(original_image, threshold1=200, threshold2=300)
     return processed_img
 
 
